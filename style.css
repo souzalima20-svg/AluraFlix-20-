@@ -1,0 +1,28 @@
+body{
+background-color: black;
+color: honeydew;
+font-family: 'Courier New', Courier, monospace;
+margin: 0px;
+}
+h1{
+
+font-size: 40px;
+color: aliceblue;
+
+}
+p{
+    font-size: 25px;
+}
+header{
+    border-bottom: solid 3x color(srgb rgb(20, 53, 48) green blue);
+margin: 2px;
+padding: 10px;
+color: rgb(91, 20, 70);
+}
+.chamada{
+background-color: rgb(164, 208, 246);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
