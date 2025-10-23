@@ -26,3 +26,35 @@ padding-top: 80px;
 display: flex;
 justify-content: center;
 }
+
+.chamada-texto {
+margin: right 8%;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-video {
+display: flex;
+overflow-x: auto;  /* permite rolagem horizontal */
+gap: 15px;       /* espaço entre videos */
+padding: 20px;
+scroll-behavior: smooth; /* rolagem suave */
+
+}
+
+.categoria-video::-webkit-scrollbar {
+    height: 8px;]
+
+}
+
+.categoria-video::-webkit-scrollbar-thumb {
+    background-color: rgb(7, 136, 164);
+    border-radius: 4px;
+
+}
+.categoria-video{
+    padding-left: 20px;
+    padding-right: 20px;
+}
